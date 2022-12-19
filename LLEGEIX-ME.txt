@@ -1,0 +1,35 @@
+1:
+	a) git branch branca00
+	b) git checkout branca00
+	c) git status
+
+5: git checkout main
+5: git status
+5: git log main
+
+7: git checkout branca00
+7: geany Prjava02.java
+
+10:
+	b) git merge branca00
+
+12: git push origin main
+
+14:
+	a) git push origin branca01
+
+Respostes:
+
+*********************************************
+5: La diferencia es que en el historial del main no se encuentra ni aparece el último commit realizado del archivo Prjava02.java en la línea 28, mientras que en branca00 si. Ya que al realizar el comit en branca00.
+
+6: Como he comentado anteriormente no podemos verlo desde el main ya que en el main el archivo se encuentra intacto ya que ha sido modificado en la otra rama.
+
+
+7: Desde la branca00 podemos ver perfectamente el cambio realizado ya que este se ha realizado en ella, por lo tanto si estamos dentro de esta misma rama es como si hubiesemos hecho un commit sin mas y al estar dentro podemos verlo perfectamente.
+
+12:
+c)  Solo aparece main ya que cuando hemos hecho push al origin lo hemos hecho solo de la rama main.
+-------------------------------------------------
+
+14: branca01 está a 1 commit de distancia por delante de la main.
